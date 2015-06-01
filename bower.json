@@ -1,0 +1,23 @@
+{
+  "name": "koco-demo-page",
+  "version": "0.1.0",
+  "homepage": "A demo page used by generator-koco",
+  "authors": [
+    "Frédérik Charest & Maxime Séguin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "demo"
+  ],
+  "dependencies": {
+    "knockout": "^3.2.0",
+    "requirejs": "^2.1.15",
+    "requirejs-text": "^2.0.13",
+    "koco-i18next": "^0.3.0"
+  }
+}
