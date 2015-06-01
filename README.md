@@ -16,13 +16,13 @@ This component could be registered as a normal [knockout component](http://knock
 var router = require('knockout-router');
 
 // Register the page.
-router.registerPage('koco-demo-page', {
+router.registerPage('koco-demo', {
     isBower: true
 });
 
 // Add a route that will answer to /test or /#/test if you are using hashes.
 router.addRoute('test', {
     title: 'Test page',
-    pageName: 'koco-demo-page' // must match the component's name registered earlier.
+    pageName: 'koco-demo' // must match the component's name registered earlier.
 });
 ```

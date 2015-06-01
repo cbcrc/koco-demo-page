@@ -1,7 +1,7 @@
 // Copyright (c) CBC/Radio-Canada. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-define(["text!./rc.page.test-page.html", "knockout"],
+define(["text!./koco-demo-page.html", "knockout"],
     function(template, ko) {
         'use strict';
 
