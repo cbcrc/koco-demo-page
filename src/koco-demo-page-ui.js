@@ -1,22 +1,21 @@
 // Copyright (c) CBC/Radio-Canada. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-define(["text!./koco-demo-page.html", "knockout"],
-    function(template, ko) {
-        'use strict';
+import template from "text!./koco-demo-page.html";
+import ko from "knockout";
 
-        var ViewModel = function() {
-            var self = this;
 
-            return self;
-        };
+var ViewModel = function() {
+    var self = this;
 
-        return {
-            viewModel: {
-                createViewModel: function(params, componentInfo) {
-                    return new ViewModel(params, componentInfo);
-                }
-            },
-            template: template
-        };
-    });
+    return self;
+};
+
+export default {
+    viewModel: {
+        createViewModel: function(params, componentInfo) {
+            return new ViewModel(params, componentInfo);
+        }
+    },
+    template: template
+};
