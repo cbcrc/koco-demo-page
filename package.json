@@ -1,18 +1,18 @@
 {
-    "name": "koco-demo-page",
-    "version": "0.1.0",
-    "homepage": "A demo page used by generator-koco",
-    "authors": [
-        "Frédérik Charest & Maxime Séguin"
-    ],
-    "license": "MIT",
-    "scripts": {
-        "build": "rm -rf dist && mkdir dist && cp -r src/* dist && rm -rf dist/*.js && babel src --out-dir dist --modules umd --presets es2015,stage-0"
-    },
-    "dependencies": {
-        "knockout": "^3.2.0",
-        "requirejs": "^2.1.15",
-        "requirejs-text": "^2.0.13",
-        "koco-i18next": "^0.3.0"
-    }
+  "name": "koco-demo-page",
+  "version": "1.0.0",
+  "homepage": "A demo page used by generator-koco",
+  "authors": [
+    "Frédérik Charest & Maxime Séguin"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && cp -r src/* dist && rm -rf dist/*.js && babel src --out-dir dist --modules umd --presets es2015,stage-0"
+  },
+  "dependencies": {
+    "knockout": "^3.2.0",
+    "requirejs": "^2.1.15",
+    "requirejs-text": "^2.0.13",
+    "koco-i18next": "^0.3.0"
+  }
 }
